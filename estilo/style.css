@@ -49,19 +49,35 @@ section{
     font-family: var(--fonte3);
     font-size: 2em;
 }
+section p{
+    padding-bottom: 2em;
+}
 .normal{
     background-color: white;
     color: black;
 }
 .imagem{
     background-color: gray;
-    clip: white;
+    color: white;
+    box-shadow: inset 1px 5px 20px 0px rgba(0, 0, 0, 0.87);
+    background-attachment: fixed;
 }
 .imagem p{
     background-color: rgba(0, 0, 0, 0.356);
     width: 300px;
     padding: 16px;
     border-radius: 10px;
+    text-shadow: 2px 2px 15px black;
+}
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 footer{
     background-color: black;
